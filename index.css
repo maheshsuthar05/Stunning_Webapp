@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#topbar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#topbar img{
+    width:150px;
+    margin-left: 20px;
+}
+
+.topbar-menu-item{
+    font-size:1.2rem;
+    margin-right: 50px;
+    font-weight: 700;
+    color: #C6C5C3;
+    cursor: pointer;
+}
+
+#topbar button{
+    background-color: #FFD8DB;
+    color: #826DC8;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.topbar-menu-item:hover{
+    color:black;
+    border-bottom: 4px solid #5142C1;
+
+}
+
+#main-container{
+    display:flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+#vertical-section-1{
+    width:500px;
+    padding-left: 100px;
+}
+
+#vertical-section-1 h1{
+    font-size:70px;
+    font-weight: 900;
+    margin: 30px auto;
+}
+
+#vertical-section-1 p{
+    font-weight: 700;
+    border:0;
+    color:#4D4D4D;
+}
+
+#new-account-section{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start ;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+#new-account-section img{
+    margin-left:10px;
+}
+#new-account-section button{
+    background-color: #5243C0;
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#workplace-menu{
+    margin-top: 70px;
+}
+.workplace-menu-item{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:380px;
+    height:55px;
+    padding: 5px 15px;
+    background-color: #F8F8F8;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.workplace-menu-item-1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.workplace-menu-item-1 span{
+    margin-left: 15px;
+}
+
+.workplace-menu-item-2{
+    width: 160px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#c9c9c9;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.selected-item{
+    background-color: white;
+    box-shadow: 1px 1px 30px 8px #ccc;
+}
+
+.btn-capsule{
+    width:30px;
+    height: 15px;
+    border-radius: 7px;
+    border:none;
+}
